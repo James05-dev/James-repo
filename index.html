@@ -4,28 +4,48 @@
     <title>james web page</title>
 
     <meta name="description" content="this is my web page" />
+    <style>
+      body {
+        background-color: cornflowerblue;
+      }
+      p {
+        font-family: Arial, Helvetica, sans-serif;
+        font: 900;
+        color: rgb(97, 117, 95);
+      }
+    </style>
+    <link href="./index.css" rel="stylesheet" />
+
   </head>
-  <body>
-    <header>
-      <nav>
-        <a href="./index.html">home</a>
-        <a href="./about.html">about</a>
-        <a href="">career</a>
-        <a href="./contact.html">contact</a>
-      </nav>
-    </header>
+  
+  <body id="top">
+    <nav id="navbar">
+      <a class="navlink" href="./index.html">home</a>
+      <a class="navlink" href="./about.html">about</a>
+      <a class="navlink" href="">career</a>
+      <a class="navlink" href="./contact.html">contact</a>
+      <button id="estimate">estimate a project</button>
+    </nav>
+
     <a href="about.html">click to go to about page</a>
     <a target="-blank"></a>
     <a href="https://github.com/james05-dev">click to go my page</a>
 
-    <h1 class="james" id="click to go to the top">Lorem ipsum dolor sit.</h1>
+    <h1
+      class="james"
+      style="color: aqua; font: 200px; background-color: crimson"
+    >
+      ipsum dolor sit.
+    </h1>
 
     <!-- this a comment -->
-    <p>
+    <p style="color: red">
       Lorem ipsum dolor sit amet <br />consectetur adipisicing elit.
       <br />Laudantium, ipsam
     </p>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, beatae.</p>
+    <p style="color: brown">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Id, beatae.
+    </p>
 
     <img
       height="200px"
