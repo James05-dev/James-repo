@@ -6,23 +6,27 @@ p,
 h2,
 a {
   color: black;
-  font-size: 50px;
+  font-size: 16px;
 }
 p {
   color: chartreuse;
 }
 #navbar {
   background-color: #ededed;
-  padding: 20px;
 }
 .navlink {
   color: black;
+  text-decoration: none;
   cursor: url("./image/target-scope.png"), pointer;
+  margin-left: 10px;
+  text-transform: capitalize;
+}
+.navlink:hover {
+  text-decoration: underline;
+  font-weight: 600;
 }
 body {
-  margin: 10px;
-  border: 10px solid black;
-  padding: 50px;
+  margin: 0px;
   cursor: url("./image/target-scope.png"), auto;
 }
 #estimate {
@@ -34,4 +38,29 @@ body {
   text-transform: capitalize;
   font-weight: 600;
   cursor: url("./image/target-scope.png"), auto;
+}
+/* descendant combinator */
+/* / .box {
+  color: red;
+}
+/*.box h2 {
+  color: #fd4601;
+} */
+/* child combinator */
+.box > p {
+  color: blue;
+}
+.box + p {
+  color: green;
+  font-size: 30px;
+}
+#estimate:hover {
+  background-color: black;
+  color: #ededed;
+}
+#text {
+  text-align: end;
+  line-height: 40px;
+  word-spacing:10px;
+  letter-spacing:5px;
 }
