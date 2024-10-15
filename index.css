@@ -13,6 +13,25 @@ p {
 }
 #navbar {
   background-color: #ededed;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 8rem;
+}
+.right> div{
+  display: flex;
+  gap: 20px;
+  
 }
 .navlink {
   color: black;
@@ -61,6 +80,45 @@ body {
 #text {
   text-align: end;
   line-height: 40px;
-  word-spacing:10px;
-  letter-spacing:5px;
+  word-spacing: 10px;
+  letter-spacing: 5px;
+}
+.box1 {
+  background-color: red;
+  height: 3rem;
+  width: 3rem;
+  /* display: inline-block; */
+}
+.box2 {
+  background-color: yellow;
+  height: 3rem;
+  width: 3rem;
+
+  /* display: inline-block; */
+}
+.box3 {
+  background-color: blue;
+  height: 7rem;
+  width: 3rem;
+  /* display: inline-block; */
+}
+.flexbox {
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  flex-wrap: nowrap;
+  width: 30vw;
+  justify-content: space-evenly;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.flexbox1 {
+  display: flex;
+  flex-direction: column;
+  background-color: purple;
+  height: 100vh;
+  justify-content: space-between;
+  align-items: center;
 }
